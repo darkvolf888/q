@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background: #DDE2E8;
+}
+
+/* Начало Позиция */
+.wrapper{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    text-align: center;
+}
+/* Конец Позиция */
+
+/* Начало Ограничение */
+.conteiner{
+    max-width: 300px;
+    height: 100%;
+    margin: 0px auto;
+    padding: 0px 10px; 
+}
+/* Конец Ограничение */
+.img_info{
+    width: 10vh;
+}
